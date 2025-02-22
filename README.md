@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon Perl bug related to the unordered iteration of hash keys in Perl versions prior to 5.26.  The `bug.pl` file shows the issue, where the output order of keys is not consistent across different runs. The `bugSolution.pl` file provides a solution using a sorted iteration.
